@@ -1,7 +1,7 @@
 # Opply task
 ## Deployment info
 To deploy this app on Heroku you need:
-1. Login in Heroky
+1. Login in Heroku
 2. Create Heroku app
 3. Create runtime.txt and add `python-3.9-buster`
 4. Create Procfile and put `web: gunicorn opply.wsgi --log-file -` there
